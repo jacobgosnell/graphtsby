@@ -1,0 +1,16 @@
+# backend:
+#   name: git-gateway
+
+# media_folder: static/assets
+# public_folder: assets
+
+# collections:
+#   - name: test-name
+#     label: Collection Label
+#     folder: static/test-name
+#     create: true
+#     fields:
+#       - { name: date, label: Date, widget: datetime }
+#       - { name: title, label: Title }
+#       - { name: image, label: Post Image, widget: image }
+#       - { name: body, label: Body, widget: markdown }

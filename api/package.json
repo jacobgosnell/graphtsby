@@ -1,0 +1,37 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "./node_modules/.bin/babel-node src/seed/seed-db",
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo": "^2.21.2",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-datasource-rest": "^0.6.9",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.9.13",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "graphql": "^14.5.8",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-tag": "^2.10.1",
+    "neo4j-driver": "^4.0.1",
+    "neo4j-graphql-js": "^2.11.5",
+    "node-fetch": "^2.6.0",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "nodemon": "^2.0.2"
+  }
+}
